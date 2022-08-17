@@ -19,3 +19,14 @@ console.log("SONUC:", toplam);
 
 //? Ornek: 0-100 Arasinda 10 adet rasgele sayi ureten kodu
 //? for dongusu ile yaziniz..
+
+for (let i = 1; i <=10; i++) {
+    const rasgele = Math.round(Math.random() * 100 );
+    console.log(rasgele);
+}
+
+//* NOT:
+//* Math.floor() =>surekli asagiya yuvarlar
+//* Math.ceil() =>sürekli yukariya yuvarlar
+//* Math.round() => degerine gore yuvarlar.
+//* Math.trunc() => kesirli sayinin tam kismini alir.
